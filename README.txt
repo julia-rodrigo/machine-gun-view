@@ -7,7 +7,9 @@ OPEN LOCAL WITH:
 1. npm i
 2. npm run dev
 
-Vercel 
+Vercel: https://machine-gun-view.vercel.app/
+
+-----------
 
 ASSIGNMENT:
 
