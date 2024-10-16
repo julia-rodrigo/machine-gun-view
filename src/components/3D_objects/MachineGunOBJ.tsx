@@ -24,7 +24,7 @@ const MachineGunOBJ = ({
   return (
     <a.group {...props} ref={gunRef}>
       <mesh
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Conveyor_Outfeed.geometry}
         material={materials.Conveyor}
         position={[0, 1.161, 1.287]}
@@ -33,7 +33,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Plane004.geometry}
         material={materials.Machine}
         position={[-0.054, 1.613, -0.653]}
@@ -41,18 +41,18 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Plane005.geometry}
         material={materials.Machine}
         position={[-0.054, 1.613, 0.64]}
       />
       <mesh
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.VA_BaseShell.geometry}
         material={materials.Machine}>
         <mesh
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.BaseShell_Door_Lower.geometry}
           material={materials.Machine}
           position={[0.409, 0.231, 0]}
@@ -61,7 +61,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.BaseShell_Door_Upper.geometry}
           material={materials.Machine}
           position={[0.543, 0.986, 0]}
@@ -70,7 +70,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.BaseShell_Support_L.geometry}
           material={materials.Machine}
           position={[0.056, 0.571, -0.606]}
@@ -79,7 +79,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.BaseShell_Support_R.geometry}
           material={materials.Machine}
           position={[0.056, 0.571, 0.567]}
@@ -89,7 +89,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Conveyor_Infeed.geometry}
         material={materials.Conveyor}
         position={[0, 1.161, -1.246]}
@@ -98,7 +98,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Outfeed_Rail_A.geometry}
         material={materials.Machine}
         position={[0.407, 1.281, 1.308]}
@@ -108,9 +108,9 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder004.geometry}
-        //@ts-ignore
+        //@ts-expect-error
         material={nodes.Cylinder004.material}
         position={[-0.423, 1.161, 2.105]}
         rotation={[0, 0, -Math.PI / 2]}
@@ -119,7 +119,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Outfeed_Rail_B.geometry}
         material={materials.Machine}
         position={[-0.414, 1.281, 1.308]}
@@ -129,7 +129,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Plane002.geometry}
         material={materials.Machine}
         position={[0.528, 1.712, 0]}
@@ -137,14 +137,14 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Conveyor_Outfeed_Motor.geometry}
         material={materials.Machine}
       />
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Conveyor_Reject_Motor.geometry}
         material={materials.Machine}
         position={[-0.452, 0.449, 0.41]}
@@ -153,14 +153,14 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Conveyor_Reject_Base.geometry}
         material={materials.Machine}
         position={[-0.425, 0.448, 0]}>
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Conveyor_Reject.geometry}
           material={materials.Conveyor}
           position={[-0.001, 0, 0.001]}
@@ -169,7 +169,7 @@ const MachineGunOBJ = ({
           <mesh
             
             
-            //@ts-ignore
+            //@ts-expect-error
             geometry={nodes.Conveyor_Reject_End.geometry}
             material={materials.Machine}
             position={[0.002, 0, 0.812]}
@@ -178,7 +178,7 @@ const MachineGunOBJ = ({
             <mesh
               
               
-              //@ts-ignore
+              //@ts-expect-error
               geometry={nodes.Conveyor_Reject_End_Connect.geometry}
               material={materials.Machine}
               position={[0, 0, 0.391]}
@@ -187,7 +187,7 @@ const MachineGunOBJ = ({
               <mesh
                 
                 
-                //@ts-ignore
+                //@ts-expect-error
                 geometry={nodes.Cylinder007.geometry}
                 material={materials.Machine}
                 position={[0.013, -90.779, 3.913]}
@@ -196,7 +196,7 @@ const MachineGunOBJ = ({
                 <mesh
                   
                   
-                  //@ts-ignore
+                  //@ts-expect-error
                   geometry={nodes.Plane014.geometry}
                   material={materials.Conveyor}
                   position={[-0.001, 0, 0.001]}
@@ -205,7 +205,7 @@ const MachineGunOBJ = ({
                   <mesh
                     
                     
-                    //@ts-ignore
+                    //@ts-expect-error
                     geometry={nodes.Cylinder009.geometry}
                     material={materials.Machine}
                     position={[0.002, 0, 0.968]}
@@ -214,7 +214,7 @@ const MachineGunOBJ = ({
                     <mesh
                       
                       
-                      //@ts-ignore
+                      //@ts-expect-error
                       geometry={nodes.Cylinder006.geometry}
                       material={materials.Machine}
                       position={[0.001, 0, 0.391]}
@@ -231,7 +231,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder011.geometry}
         material={materials.Machine}
         position={[0, 1.161, 2.105]}
@@ -240,7 +240,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Seperator_Back.geometry}
         material={materials.Machine}
         position={[0.467, 1.095, 0.934]}
@@ -249,7 +249,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Seperator_Front.geometry}
         material={materials.Machine}
         position={[-0.448, 1.095, 0.934]}
@@ -258,7 +258,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder012.geometry}
         material={materials.Machine}
         position={[0, 1.198, 0.361]}
@@ -267,7 +267,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder013.geometry}
           material={materials.Machine}
           position={[0.693, 0, 0]}
@@ -275,7 +275,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Plane016.geometry}
           material={materials.Conveyor}
           position={[0.822, 0, 0]}
@@ -286,7 +286,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder014.geometry}
         material={materials.Machine}
         position={[0, 1.198, -0.362]}
@@ -295,7 +295,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder015.geometry}
           material={materials.Machine}
           position={[0.693, 0, 0]}
@@ -303,7 +303,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Plane017.geometry}
           material={materials.Conveyor}
           position={[0.822, 0, 0]}
@@ -314,7 +314,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder001.geometry}
         material={materials.Machine}
         position={[0, 1.161, 0.461]}
@@ -323,7 +323,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder002.geometry}
         material={materials.Machine}
         position={[0, 1.161, -0.464]}
@@ -332,7 +332,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder003.geometry}
         material={materials.Machine}
         position={[0, 1.161, -1.532]}
@@ -341,7 +341,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Conveyor_Infeed_Motor.geometry}
         material={materials.Machine}
         rotation={[0, 0, -Math.PI]}
@@ -350,7 +350,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Infeed_Rail_A.geometry}
         material={materials.Machine}
         position={[0.407, 1.281, -1.295]}
@@ -359,7 +359,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Infeed_Rail_B.geometry}
         material={materials.Machine}
         position={[-0.414, 1.281, -1.295]}
@@ -368,7 +368,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder.geometry}
         material={materials.Machine}
         position={[0.315, 0.022, 0.655]}
@@ -376,7 +376,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder005.geometry}
           material={materials.Machine}
           position={[0, 2.397, 0]}
@@ -386,7 +386,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder008.geometry}
           material={materials.Machine}
           position={[0, 5.88, 0]}
@@ -397,7 +397,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder010.geometry}
         material={materials.Machine}
         position={[-0.233, 0.022, 0.655]}
@@ -405,7 +405,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder016.geometry}
           material={materials.Machine}
           position={[0, 2.397, 0]}
@@ -415,7 +415,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder017.geometry}
           material={materials.Machine}
           position={[0, 5.88, 0]}
@@ -426,7 +426,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder018.geometry}
         material={materials.Machine}
         position={[-0.233, 0.022, -0.65]}
@@ -434,7 +434,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder019.geometry}
           material={materials.Machine}
           position={[0, 2.397, 0]}
@@ -444,7 +444,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder020.geometry}
           material={materials.Machine}
           position={[0, 5.88, 0]}
@@ -455,7 +455,7 @@ const MachineGunOBJ = ({
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Cylinder021.geometry}
         material={materials.Machine}
         position={[0.315, 0.022, -0.65]}
@@ -463,7 +463,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder022.geometry}
           material={materials.Machine}
           position={[0, 2.397, 0]}
@@ -473,7 +473,7 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Cylinder023.geometry}
           material={materials.Machine}
           position={[0, 5.88, 0]}
@@ -481,12 +481,12 @@ const MachineGunOBJ = ({
           scale={[0.276, 0.93, 0.276]}
         />
       </mesh>
-      <mesh   //@ts-ignore
+      <mesh   //@ts-expect-error
       geometry={nodes.Plane.geometry} material={materials.Machine} />
       <mesh
         
         
-        //@ts-ignore
+        //@ts-expect-error
         geometry={nodes.Plane_1.geometry}
         material={materials.HMI_Screen}
       />
@@ -494,14 +494,14 @@ const MachineGunOBJ = ({
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Plane002_1.geometry}
           material={materials.Glass}
         />
         <mesh
           
           
-          //@ts-ignore
+          //@ts-expect-error
           geometry={nodes.Plane002_2.geometry}
           material={materials.Machine}
         />
