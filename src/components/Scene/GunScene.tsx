@@ -1,8 +1,8 @@
 'use client'
 
 import { Canvas, useLoader } from "@react-three/fiber"
-import { Center, Environment, OrbitControls, PresentationControls, Stage,useGLTF } from "@react-three/drei"
-import { Suspense, useState } from "react"
+import { Center, Environment, OrbitControls, PresentationControls } from "@react-three/drei"
+import { Suspense } from "react"
 import Loader from "../ui/custom/Loader"
 import React from 'react'
 import * as THREE from 'three';
@@ -46,10 +46,9 @@ const GunScene = () => {
     
     for ( let i = 0; i < intersections.length; i ++ ) {
 
-      // @ts-ignore
       const selectedObject = intersections[0].object
       const color = new THREE.Color(Math.random(),Math.random(),Math.random() )
-      // @ts-ignore
+      // @ts-expect-error
       selectedObject.material.color = color
       //intersections[i].object.material.color.set(0xff0000)
       
