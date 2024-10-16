@@ -1,8 +1,6 @@
-import { Hero, CanvasScene, GunScene, GunInfo } from "@/components";
+import { Hero, GunScene, GunInfo } from "@/components";
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/custom/ModeToggle";
-// import dynamic from "next/dynamic"
-
 
 export default function Home() {
   return (

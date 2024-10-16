@@ -1,21 +1,16 @@
 'use client'
 
-import { Canvas, useLoader, useFrame, useThree } from "@react-three/fiber"
+import { Canvas, useLoader } from "@react-three/fiber"
 import { Center, Environment, OrbitControls, PresentationControls, Stage,useGLTF } from "@react-three/drei"
 import { Suspense, useState } from "react"
-import MachineGun from "../3D_objects/MachineGun"
-import MachineGunOBJ from "../3D_objects/MachineGunOBJ"
 import Loader from "../ui/custom/Loader"
-import { HemisphereLight } from "three"
-import React, { useRef, useEffect, Dispatch, SetStateAction } from 'react'
-import { a } from "@react-spring/three"
-import { getNamedRouteRegex } from 'next/dist/shared/lib/router/utils/route-regex';
+import React from 'react'
 import * as THREE from 'three';
 import { GLTFLoader } from "three/examples/jsm/Addons.js"
 
 const GunScene = () => {
 
-  const [ environment, setEnvironment ] = useState("dawn")
+  // const [ environment, setEnvironment ] = useState("dawn")
   const gltf = useLoader(GLTFLoader, '/VA_Graduate_Software_Engineer_Test_Machine.glb')
 
   const scene = new THREE.Scene();
@@ -23,9 +18,7 @@ const GunScene = () => {
   // const renderer = new THREE.WebGLRenderer()
   // renderer.setSize(window.innerWidth, window.innerHeight)
   
-  
-  
-  const { nodes, materials } = gltf
+  const { nodes } = gltf
 
   // const mesh_groups = nodes["Scene"].children
   const mesh_groups = nodes
