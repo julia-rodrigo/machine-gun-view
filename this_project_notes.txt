@@ -1,0 +1,79 @@
+
+Run application: 
+
+open terminal and enter
+{
+    npm run dev
+}
+
+WAIT A FEW SECONDS 
+the styles will appear when the terminal reads
+{
+    npm run dev
+
+    > machine_gun_view@0.1.0 dev
+    > next dev
+
+    ▲ Next.js 14.2.15
+    - Local:        http://localhost:3000
+
+    ✓ Starting...
+    ✓ Ready in 4.2s
+    ○ Compiling / ...
+    ✓ Compiled / in 10.9s (515 modules)
+    ✓ Compiled in 1091ms (239 modules)
+    GET / 200 in 12004ms
+
+    // the page will be read once compiled
+
+}
+-------------
+
+if port 3000 is in used, 
+you can kill it on windows by:
+{
+    npx kill-port 3000
+}
+
+----------------- dev installments
+
+npx create-next-app@latest machine_gun_view
+typescript, ESlint, tailwind, NO src directory
+
+npx shadcn@latest init
+New York Theme, Slate, CSS variables
+
+npm install three @react-three/fiber
+npm install --save three
+npm install @react-three/drei
+
+npm i @react-spring/three
+
+---------------------------
+
+Components added:
+1. npx shadcn@latest add button
+2. npx shadcn@latest add dropdown-menu
+3. npx shadcn@latest add card
+
+
+--------------------
+
+VSCode Extentions:
+
+1. ES7+ React snippets
+{
+    rafce
+}
+
+2. Tailwind CSS Intelligence
+{
+    hover over tailwindCSS to get the OG CSS
+}
+
+
+---------------------------
+
+ref sites:
+
+https://gltf.pmnd.rs/
